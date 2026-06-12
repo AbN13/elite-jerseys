@@ -1,0 +1,52 @@
+/* Não precisamos mais da classe .product-card no CSS para layout,
+   pois as classes Tailwind no HTML já controlam isso.
+   Manteremos apenas as regras que não são de layout ou que o Tailwind não cobre. */
+
+/* .product-card {
+  width: 100%;
+  max-width: 260px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+} */
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%; /* A imagem preenche 100% da altura do seu container (h-48) */
+  object-fit: cover;
+  display: block; /* Remove qualquer espaçamento extra */
+  margin: 0; /* Garante que não há margem na imagem */
+  padding: 0; /* Garante que não há padding na imagem */
+  border-radius: 0; /* Garante que a imagem em si não tenha arredondamento */
+}
+
+/* Garante que o div de conteúdo tenha o padding correto */
+/* Esta regra é redundante se você já usa p-4 no HTML, mas pode ser um fallback */
+.product-card > div.p-4 {
+  padding: 1rem; /* Equivalente a p-4 do Tailwind (16px) */
+}
+
+.product-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.product-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  /* .product-card {
+    max-width: 90%;
+  } */
+}

@@ -1,0 +1,21 @@
+/* Estilos para o zoom da imagem */
+.product-image-container {
+  position: relative; /* Necessário para o overflow e posicionamento */
+  overflow: hidden;   /* Esconde partes da imagem que saem durante o zoom */
+  display: inline-block; /* Faz o container se ajustar ao tamanho da imagem */
+  border-radius: 1rem; /* Para combinar com o arredondamento que você já tem */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+}
+
+.product-image-container img {
+  display: block; /* Remove espaço extra abaixo da imagem */
+  width: 100%; /* Garante que a imagem preencha o container */
+  height: auto; /* Mantém a proporção da imagem */
+  transform-origin: center center; /* Ponto de origem do zoom */
+  transition: transform 0.5s ease-in-out; /* Animação suave */
+  cursor: zoom-in; /* Muda o cursor do mouse para indicar zoom */
+}
+
+.product-image-container:hover img {
+  transform: scale(1.25); /* Amplia a imagem em 25% ao passar o mouse */
+}

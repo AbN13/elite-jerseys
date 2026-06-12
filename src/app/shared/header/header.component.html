@@ -1,0 +1,44 @@
+<header class="header bg-black text-white py-4">
+  <div class="container mx-auto px-4 flex items-center justify-between">
+    <!-- Logo -->
+    <a routerLink="/" class="flex items-center">
+      <img
+        src="assets/logo/logo.png"
+        alt="Elite Jerseys Logo"
+        class="h-8 w-auto object-contain transform scale-x-125" />
+    </a>
+
+    <!-- Nav + Cart -->
+    <div class="flex items-center gap-4">
+      <nav class="nav space-x-6 text-base">
+        <a routerLink="/"
+           routerLinkActive="font-semibold underline"
+           [routerLinkActiveOptions]="{ exact: true }"
+           class="transition hover:text-hover:text-blue-500">Home</a>
+
+        <a routerLink="/jerseys"
+           routerLinkActive="font-semibold underline"
+           class="transition hover:text-hover:text-blue-500">Jerseys</a>
+
+        <a routerLink="/about"
+           routerLinkActive="font-semibold underline"
+           class="transition hover:text-hover:text-blue-500">About</a>
+
+        <a routerLink="/contact"
+           routerLinkActive="font-semibold underline"
+           class="transition hover:text-hover:text-blue-500">Contact</a>
+      </nav>
+
+      <!-- Botão do carrinho -->
+      <button type="button"
+              (click)="cart.toggle()"
+              class="relative inline-flex items-center px-3 py-1.5 rounded-full border border-white/20 hover:bg-white/10 transition">
+        🛒 Cart
+        <span *ngIf="cart.count() > 0"
+              class="absolute -top-2 -right-2 text-xs bg-blue-600 text-white rounded-full px-1.5 py-0.5">
+          {{ cart.count() }}
+        </span>
+      </button>
+    </div>
+  </div>
+</header>

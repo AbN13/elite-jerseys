@@ -1,0 +1,52 @@
+/* Estilos para o container do banner de fundo na página de produtos */
+.products-page-banner {
+  background-image: url('/assets/images/banner.png'); /* Caminho para sua imagem */
+  background-size: cover; /* Garante que a imagem cubra toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  min-height: 600px; /* Altura mínima para o banner ser visível. Ajuste conforme necessário. */
+  display: flex; /* Para centralizar o conteúdo verticalmente, se desejar */
+  align-items: center; /* Centraliza verticalmente o conteúdo dentro do banner */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do banner */
+  padding: 20px 0; /* Adiciona um pouco de padding vertical */
+}
+
+/* Ajuste para a seção interna: remova qualquer background-color aqui */
+section.w-full.py-5.px-4.md\:px-8 {
+  background-color: transparent; /* Garante que o fundo da seção seja transparente */
+  width: 100%; /* Garante que a seção ocupe a largura total disponível */
+}
+
+.products {
+  padding: 60px 20px;
+}
+
+.products h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.products p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* 🔥 faz os cards igualarem a altura */
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .products {
+    padding: 40px 10px;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}

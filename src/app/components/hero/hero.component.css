@@ -1,0 +1,57 @@
+.hero {
+  height: 90vh;
+  background: url('/assets/hero/hero-bg.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 0 1rem;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #e5e7eb;
+}
+
+.hero-btn {
+  position: relative;
+  top: 230px;
+  background-color: #2563eb;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: #fff;
+  transition: background 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #1d4ed8;
+}
