@@ -1,6 +1,6 @@
 /* Estilos para o container do banner de fundo na página de produtos */
 .products-page-banner {
-  background-image: url('/assets/images/banner.png'); /* Caminho para sua imagem */
+  background-image: url('assets/images/banner.jpg'); /* Caminho para sua imagem */
   background-size: cover; /* Garante que a imagem cubra toda a área */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita que a imagem se repita */

@@ -133,7 +133,7 @@ import { CartService } from '../../shared/cart/cart.service';
   `,
   styles: [`
     .product-page-banner {
-      background-image: url('/assets/images/banner.jpg');
+      background-image: url('assets/images/banner.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
