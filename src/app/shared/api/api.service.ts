@@ -54,7 +54,7 @@ export interface OrderResponse {
 export class ApiService {
   private http = inject(HttpClient);
   // URL base para sua API em PHP (ajuste se necessário, mas geralmente é 'api/')
-  private apiUrl = 'api/'; 
+  private apiUrl = 'http://localhost/api/';
 
   // Endpoint para buscar CEP (MANTIDO IGUAL)
   buscarCep(cep: string): Observable<EnderecoResponse> {

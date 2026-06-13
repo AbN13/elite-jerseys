@@ -32,8 +32,8 @@ export interface ShippingInfo {
 })
 export class ProductService {
   // URL apontando para seu PHP no XAMPP (via proxy)
-  private productsUrl = '/api/products.php';
-  private productDetailUrl = '/api/product_detail.php';
+  private productsUrl = 'http://localhost/api/products.php';
+  private productDetailUrl = 'http://localhost/api/product_detail.php';
 
   constructor(private http: HttpClient) {}
 
