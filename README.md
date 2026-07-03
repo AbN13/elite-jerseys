@@ -1,4 +1,4 @@
-# Elite Jerseys 
+# Elite Jerseys
 
 Elite Jerseys é um projeto de e-commerce desenvolvido como parte do meu portfólio de Front-end. A aplicação foi construída utilizando Angular 20, TypeScript e Tailwind CSS, integrada a uma API REST desenvolvida em PHP e MySQL. O objetivo foi aplicar conceitos de componentização, roteamento, consumo de APIs e construção de interfaces modernas e responsivas.
 
