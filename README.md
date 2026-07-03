@@ -1,10 +1,10 @@
 # Elite Jerseys ⚽
 
-Elite Jerseys é uma aplicação de e-commerce de camisas de futebol desenvolvida com Angular 20, Tailwind CSS, PHP e MySQL.
+Elite Jerseys é um projeto de e-commerce desenvolvido como parte do meu portfólio de Front-end. A aplicação foi construída utilizando Angular 20, TypeScript e Tailwind CSS, integrada a uma API REST desenvolvida em PHP e MySQL. O objetivo foi aplicar conceitos de componentização, roteamento, consumo de APIs e construção de interfaces modernas e responsivas.
 
 O projeto simula uma loja virtual completa, permitindo navegação por produtos, visualização de detalhes, gerenciamento de carrinho, cálculo de frete por CEP, checkout e confirmação de pedidos através de integração com API backend.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 * Angular 20
 * TypeScript
@@ -14,7 +14,7 @@ O projeto simula uma loja virtual completa, permitindo navegação por produtos,
 * Angular Router
 * Git & GitHub
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * Catálogo de camisas de futebol
 * Página de detalhes do produto
@@ -27,7 +27,7 @@ O projeto simula uma loja virtual completa, permitindo navegação por produtos,
 * Layout responsivo
 * Navegação SPA com Angular Router
 
-## 📷 Screenshots
+## Screenshots
 
 ### Home
 
@@ -53,7 +53,7 @@ O projeto simula uma loja virtual completa, permitindo navegação por produtos,
 
 ![Order Success](./screenshots/order-success.png)
 
-## 🛠️ Instalação
+## Instalação
 
 Clone o repositório:
 
@@ -85,7 +85,7 @@ Acesse:
 http://localhost:4200
 ```
 
-## 🗄️ Backend
+## Backend
 
 O projeto inclui uma API em PHP responsável por:
 
@@ -100,10 +100,10 @@ Banco de dados:
 backend/database/jerseys.sql
 ```
 
-## 📌 Status
+## Status
 
-Projeto concluído para fins de estudo e portfólio, demonstrando integração entre Angular, PHP e MySQL em uma aplicação de e-commerce.
+Projeto desenvolvido para portfólio com o objetivo de demonstrar conhecimentos em Angular, TypeScript, Tailwind CSS, integração com APIs REST e desenvolvimento de aplicações de e-commerce.
 
-## 👨‍💻 Autor
+## Autor
 
 Abner Leandro Gonçalves
