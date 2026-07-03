@@ -108,6 +108,4 @@ Projeto desenvolvido para portfólio com o objetivo de demonstrar conhecimentos 
 
 Abner Leandro Gonçalves
 
-LinkedIn: <https://www.linkedin.com/in/abner-leandro-goncalves>
-
-GitHub: <https://github.com/AbN13>
+[LinkedIn](https://www.linkedin.com/in/abner-leandro-goncalves) • [GitHub](https://github.com/AbN13)
