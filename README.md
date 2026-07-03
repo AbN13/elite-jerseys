@@ -1,6 +1,6 @@
 # Elite Jerseys ⚽
 
-Elite Jerseys é uma aplicação full-stack de e-commerce de camisas de futebol desenvolvida com Angular 20, Tailwind CSS, PHP e MySQL.
+Elite Jerseys é uma aplicação de e-commerce de camisas de futebol desenvolvida com Angular 20, Tailwind CSS, PHP e MySQL.
 
 O projeto simula uma loja virtual completa, permitindo navegação por produtos, visualização de detalhes, gerenciamento de carrinho, cálculo de frete por CEP, checkout e confirmação de pedidos através de integração com API backend.
 
